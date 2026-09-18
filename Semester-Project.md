@@ -105,3 +105,95 @@ Using a mapping service, a driver can obtain directions to the chosen parking fa
 ### 15. Display a dashboard
 
 The dashboard will provide information on the parking facility's occupancy, reports, and other information to the parking operator.
+
+## 3. Work Breakdown Structure
+
+For the smart parking platform, I broke the project into 4 main parts of the system and then divided those into smaller parts. This helped me see what would actually need to be done for the platform.
+
+### 1. User Accounts
+
+* 1.1 Driver
+
+  * 1.1.1 Register
+  * 1.1.2 Login
+* 1.2 Parking Operator
+
+  * 1.2.1 Register
+  * 1.2.2 Login
+
+### 2. Parking
+
+* 2.1 Find Parking
+
+  * 2.1.1 Search for a garage
+  * 2.1.2 View available parking
+* 2.2 Garage Management
+
+  * 2.2.1 Add or edit a garage
+  * 2.2.2 Update available spaces
+
+### 3. Reservations and Payment
+
+* 3.1 Reservation
+
+  * 3.1.1 Select parking
+  * 3.1.2 Confirm reservation
+* 3.2 Payment
+
+  * 3.2.1 Enter payment
+  * 3.2.2 Payment confirmation
+
+### 4. Reporting
+
+* 4.1 Parking Reports
+
+  * 4.1.1 View occupancy
+  * 4.1.2 View occupancy graphs
+* 4.2 Financial Reports
+
+  * 4.2.1 View revenue
+  * 4.2.2 Export report
+
+## 4. Draft Timeline
+
+I made a simple timeline based on the structure i have. This is just the order that made the most sense for me as of now but it could definitely change later.
+
+| Week   | Project Work                    |
+| ------ | ------------------------------- |
+| Week 1 | Planning and requirements       |
+| Week 2 | User accounts                   |
+| Week 3 | Parking search and garage setup |
+| Week 4 | Reservations                    |
+| Week 5 | Payments                        |
+| Week 6 | Reporting                       |
+| Week 7 | Testing and fixes               |
+| Week 8 | Final release                   |
+
+### Milestones
+
+* Week 2 – User accounts finished
+* Week 5 – Reservations and payments finished
+* Week 6 – Reporting finishef
+* Week 8 – Final project finished
+
+## 5. Gantt Chart
+
+```mermaid
+gantt
+    title Smart Parking Platform
+    dateFormat YYYY-MM-DD
+
+    Planning                 :2026-09-21, 7d
+    User Accounts            :2026-09-28, 7d
+    Parking Features         :2026-10-05, 7d
+    Reservations             :2026-10-12, 7d
+    Payments                 :2026-10-19, 7d
+    Reporting                :2026-10-26, 7d
+    Testing and Fixes        :2026-11-02, 7d
+    Final Release            :2026-11-09, 7d
+```
+
+### Estimation
+
+This schedule is just an estimate and could change over time because the project also changes every week and homework too. I think breaking the project into sections and weekly homeoworks really helped make such a complicated project much easier for me and made more sense.
+
