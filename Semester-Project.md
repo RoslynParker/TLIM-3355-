@@ -197,3 +197,23 @@ gantt
 
 This schedule is just an estimate and could change over time because the project also changes every week and homework too. I think breaking the project into sections and weekly homeoworks really helped make such a complicated project much easier for me and made more sense.
 
+## 6. Agile, Scrum, and Sprint Planning
+
+For this part, I used Trello to organize everything that still needs to be done for the parking app. I made a backlog with the login, UI, backend, and reporting parts of the project. This was my first time really using Trello, but once I got everything on the board it was actually pretty easy to understand.
+
+For Sprint 1, I picked 8 things to start with. I mostly focused on creating accounts and logging in because I felt like that should come before getting into the actual parking, reservation, and payment features.
+
+### Sprint 1 Backlog
+
+- Login - Create user login
+- Login - Create operator login
+- Login - Create new account
+- UI - Login screen
+- UI - Registration screen
+- Backend - Save new user accounts
+- Backend - Save operator accounts
+- Backend - Verify login information
+
+### Trello Board
+
+![Smart Parking Platform Trello Board](Trello%20HW%204.png)
