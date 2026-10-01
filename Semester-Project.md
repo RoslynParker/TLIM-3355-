@@ -217,3 +217,63 @@ For Sprint 1, I picked 8 things to start with. I mostly focused on creating acco
 ### Trello Board
 
 ![Smart Parking Platform Trello Board](Trello%20HW%204.png)
+
+## 7. Risk, Quality, and Communication Management
+
+### Project Risks - 4 for each group
+
+
+#### Technical Risks
+- The app might show a parking spot as available when someone has already taken or reserved it.
+- A payment could fail or not process correctly when someone is trying to reserve a spot.
+- There could be security problems with users' login or account information.
+- Some parking garages may have trouble sending accurate or updated parking information to the app.
+
+#### Schedule Risks
+- Some features might take longer to finish than I originally planned.
+- If I fall behind on one of the bigger features, it could put the next parts of the project behind too.
+- I could find bugs during testing that take more time to fix than expected.
+- Trying to work on too many features at once could make it harder to keep everything on schedule.
+
+#### Financial Risks
+- Services for things like payments or maps may end up costing more than originally expected.
+- Some parking garages might need extra equipment to accurately track which spaces are available.
+- Hosting and maintaining the app could get more expensive if more people start using it.
+- If a major problem is found after the app is released, fixing it could cost more than planned.
+
+#### People Risks
+- A team member might be unavailable when their part of the project needs to be finished.
+- Someone on the team might need extra time to learn how to work with a feature or technology they haven't used before.
+- If the team isn't communicating well, a task could get missed or two people could accidentally work on the same thing.
+- If we don't get enough feedback from users or parking operators, we won't realize something needs to be changed until later.
+
+### Risk Register
+
+I chose 10 of the risks above and looked at how likely they are to happen, how much they could affect the project, and what could be done if they come up.
+
+| ID | Risk | Probability | Impact | Owner | Response | Status / Notes |
+|---|---|---|---|---|---|---|
+| R1 | Parking availability does not update correctly | Moderate | Major | Development Team | Mitigate | Test the updates often and make sure reserved spots are no longer showing as available |
+| R2 | A payment does not go through correctly | Low | Major | Backend Developer | Mitigate | Test different payment situations before releasing this feature |
+| R3 | There is a security problem with someone's login or account information | Low | Catastrophic | Development Team | Mitigate | Make sure account information is protected and test the login system carefully |
+| R4 | A garage sends old or incorrect parking information | Moderate | Major | Backend Developer | Mitigate | Check how often the garage information updates and watch for data that is out of date |
+| R5 | One of the bigger features takes longer than expected | Moderate | Moderate | Project Manager | Mitigate | Work on the most important features first and adjust the timeline if needed |
+| R6 | Bugs found during testing take extra time to fix | Moderate | Moderate | Development Team | Accept | Plan some extra time for testing since bugs are likely to come up |
+| R7 | Payment or map services end up costing more than planned | Low | Moderate | Project Manager | Accept | Keep an eye on the cost and look at other options if it gets too expensive |
+| R8 | A garage needs extra equipment to accurately track open spaces | Moderate | Major | Garage Operator | Mitigate | Find out what equipment the garage already has before connecting it to the app |
+| R9 | A team member is unavailable when their part needs to be finished | Low | Moderate | Project Manager | Mitigate | Keep track of what everyone is working on so someone else can step in if needed |
+| R10 | We don't get enough feedback from users during testing | Moderate | Moderate | Project Team | Mitigate | Ask users for feedback along the way instead of waiting until everything is finished |
+
+### Communication Plan
+
+For communication, I wanted to have regular check ins but not so many meetings that they start getting in the way of actually working on the project. I also thought about who would really need to be involved in each update.
+
+| Check-In | Who | How Often | How | What We Would Talk About |
+|---|---|---|---|---|
+| Team Check-In | Project Team | Daily | Quick stand-up | What everyone is working on, what is next, and if anyone is stuck on something |
+| Weekly Project Meeting | Project Team | Weekly | Teams | Go over our progress, any problems that came up, and what we need to focus on next |
+| Sprint Review | Project Team | End of each sprint | Trello / Demo | Look at what we finished during the sprint and what still needs to be worked on |
+| Parking Operator Check-In | Project Manager and Parking Operators | Every 2 weeks | Teams | Get their feedback on the garage information, available spaces, and the operator side of the app |
+| Project Update | Stakeholders | Monthly | Short progress update | Share how the project is going, any bigger problems or risks, and whether anything has changed with the timeline |
+
+Since I already started using Trello for the backlog and Sprint 1, I would keep using it to track the team's work instead of switching to something different. For the larger project updates, I would keep them pretty simple and focus more on how the project is going instead of going through every small task.
