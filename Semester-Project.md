@@ -277,3 +277,89 @@ For communication, I wanted to have regular check ins but not so many meetings t
 | Project Update | Stakeholders | Monthly | Short progress update | Share how the project is going, any bigger problems or risks, and whether anything has changed with the timeline |
 
 Since I already started using Trello for the backlog and Sprint 1, I would keep using it to track the team's work instead of switching to something different. For the larger project updates, I would keep them pretty simple and focus more on how the project is going instead of going through every small task.
+
+## 8. Resource and Cost Management
+
+### Roles & Resources
+
+For the Smart Parking Platform, I decided to use a team of six people. I think this is enough to divide up the main parts of the project without having too many people involved.
+
+| Name | Role | Skill Level | Allocation | Main Responsibility |
+|---|---|---|---|---|
+| Roslyn Parker | Project Manager (PM) | Intermediate | 25% | Keep the project organized, manage the schedule, and track progress in Trello |
+| Zara Quinn | UX | Intermediate | 30% | Design the app screens and make sure they're easy to use |
+| Kai Mercer | Developer | Intermediate | 50% | Build the login, registration, and parking reservation features |
+| Nova Bennett | Developer | Advanced | 60% | Work on accounts, parking availability, payments, and garage information |
+| Jace Rivera | QA / Tester | Intermediate | 25% | Test the features and find problems before the app is released |
+| Skye Monroe | Business Analyst (BA) | Intermediate | 20% | Help organize what the app needs to do based on user and parking operator feedback |
+
+I made it so theres two developers because there is a lot to build, especially with the parking availability and reservation features. I also wanted someone focused on testing and someone who could help me make sure we're building what users and parking operators actually need. I kept myself as the project manager since I've already been organizing the backlog, sprint planning, and other parts of the project.
+
+### Resource & Cost Plan
+
+For this part, I used bottom-up estimation because I thought it would be easier to figure out the cost by looking at each team member separately. I estimated their hours and hourly pay based on how much work I think they would have during the three months. Since this is just a project plan, the costs are estimates and could change.
+
+#### Labor Costs
+
+| Team Member | Role | Estimated Hours | Hourly Rate | Total Cost |
+|---|---|---:|---:|---:|
+| Roslyn Parker | Project Manager | 120 | $35 | $4,200 |
+| Zara Quinn | UX | 144 | $30 | $4,320 |
+| Kai Mercer | Developer | 240 | $40 | $9,600 |
+| Nova Bennett | Developer | 288 | $45 | $12,960 |
+| Jace Rivera | QA / Tester | 120 | $28 | $3,360 |
+| Skye Monroe | Business Analyst | 96 | $30 | $2,880 |
+| **Total** | | **1,008** | | **$37,320** |
+
+I gave the developers more hours because they would be doing most of the building, especially with the login system, reservations, payments, and parking availability. The other team members would still be involved, but they wouldn't need to spend as much time on the project.
+
+#### Other Project Costs
+
+| Item | Category | Estimated Cost | Notes |
+|---|---|---:|---|
+| Cloud hosting | Infrastructure | $450 | $150 per month for 3 months |
+| Software tools | Licenses & Tools | $300 | Design and development tools |
+| Maps and payment services | Third-party APIs | $450 | Estimated costs for connecting outside services |
+| Testing devices | Hardware | $300 | Devices for checking how the app works |
+| **Total** | | **$1,500** | |
+
+#### Estimated Project Budget
+
+| Budget Item | Cost |
+|---|---:|
+| Labor | $37,320 |
+| Other project costs | $1,500 |
+| Subtotal | $38,820 |
+| Contingency (10%) | $3,882 |
+| **Total Estimated Budget** | **$42,702** |
+
+I added a 10% contingency because I know there could be unexpected costs, especially if something takes longer than planned or a feature needs more testing.
+
+#### Monthly Cashflow
+
+| Month | Labor | Other Costs | Contingency | Total |
+|---|---:|---:|---:|---:|
+| Month 1 | $12,440 | $650 | $1,309 | $14,399 |
+| Month 2 | $12,440 | $500 | $1,294 | $14,234 |
+| Month 3 | $12,440 | $350 | $1,279 | $14,069 |
+| **Total** | **$37,320** | **$1,500** | **$3,882** | **$42,702** |
+
+I spread the labor costs evenly over the three months to keep things simple. I put more of the other costs in the first month because that's when we would probably need to get everything set up. I also added a little extra money in case something costs more than expected. The contingency is money set aside in the budget, so we might not actually need to spend it.
+
+### RACI Matrix
+
+For the RACI matrix, I used the same six team members from my resource plan. I wanted to make it clear who would be working on each part of the Smart Parking Platform and who would be responsible for making sure it gets finished.
+
+| Project Task | Roslyn (PM) | Zara (UX) | Kai (Dev) | Nova (Dev) | Jace (QA) | Skye (BA) |
+|---|---|---|---|---|---|---|
+| Gather project requirements | A | C | I | I | I | R |
+| Design app screens | A | R | C | C | I | C |
+| Build login and registration | A | C | R | R | C | I |
+| Set up parking availability | A | I | C | R | C | C |
+| Build reservations and payments | A | C | R | R | C | I |
+| Test app features | A | I | C | C | R | I |
+| Prepare app for release | A | C | R | R | C | I |
+
+**R = Responsible | A = Accountable | C = Consulted | I = Informed**
+
+I made myself accountable for the tasks because I would be managing the project and keeping track of the team's progress. The developers are responsible for most of the building, while Zara focuses on the design, Jace handles testing, and Skye helps with the requirements. I think this would make it easier to keep everyone organized and avoid confusion about who is supposed to do what.
