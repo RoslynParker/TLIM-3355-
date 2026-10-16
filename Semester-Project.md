@@ -18,6 +18,8 @@ For example, a driver who uses the map can ask for parking information, find a p
 
 WE ARE $oftware Corp is an imaginary software development company that has an unlimited budget and resources. The company is going to handle the development of the Smart Parking Platform for this project, planning and managing it.
 
+Even though the company has an unlimited budget for this assignment, I still wanted to estimate how much the project would realistically cost, which is why I made a separate budget plan.
+
 The idea isn't groundbreaking, but it comes from a really common problem. In busy areas, drivers can spend a very long amount of time looking for a parking space that’s open. This is not only frustrating but can also lead to traffic and cause delays. Parking operators also need to be able to properly track parking usage and the use of their facilities.
 
 The concept of a smart parking platform is to simplify this process for both parties. The system would be available through web and mobile apps. Customers will be able to see available parking, see the parking facility on a map, book the parking space, pay for parking, be sent notifications about their parking or reservation, and get directions to the parking facility. Parking operators will be able to keep track of those customers and get reports through their own dashboard.
@@ -106,7 +108,7 @@ Using a mapping service, a driver can obtain directions to the chosen parking fa
 
 The dashboard will provide information on the parking facility's occupancy, reports, and other information to the parking operator.
 
-## 3. Work Breakdown Structure
+## 5. Work Breakdown Structure
 
 For the smart parking platform, I broke the project into 4 main parts of the system and then divided those into smaller parts. This helped me see what would actually need to be done for the platform.
 
@@ -154,50 +156,59 @@ For the smart parking platform, I broke the project into 4 main parts of the sys
   * 4.2.1 View revenue
   * 4.2.2 Export report
 
-## 4. Draft Timeline
+## 6. Draft Timeline
 
-I made a simple timeline based on the structure i have. This is just the order that made the most sense for me as of now but it could definitely change later.
+I updated my original timeline from 8 weeks to 12 weeks so it would match the three-month resource and cost plan. I also wanted to leave more time for testing because some features, especially payments and parking availability, could take longer than expected.
 
-| Week   | Project Work                    |
-| ------ | ------------------------------- |
-| Week 1 | Planning and requirements       |
-| Week 2 | User accounts                   |
-| Week 3 | Parking search and garage setup |
-| Week 4 | Reservations                    |
-| Week 5 | Payments                        |
-| Week 6 | Reporting                       |
-| Week 7 | Testing and fixes               |
-| Week 8 | Final release                   |
+| Week | Project Work |
+|---|---|
+| Week 1 | Planning and requirements |
+| Week 2 | User accounts |
+| Week 3 | Login and registration testing |
+| Week 4 | Parking search and garage setup |
+| Week 5 | Parking availability |
+| Week 6 | Reservations |
+| Week 7 | Payments |
+| Week 8 | Reporting |
+| Week 9 | Connect and test the main features |
+| Week 10 | Testing and fixing bugs |
+| Week 11 | Final testing and improvements |
+| Week 12 | Final release |
 
 ### Milestones
 
-* Week 2 – User accounts finished
-* Week 5 – Reservations and payments finished
-* Week 6 – Reporting finishef
-* Week 8 – Final project finished
+- Week 3 – User accounts and login finished
+- Week 5 – Parking search and availability finished
+- Week 7 – Reservations and payments finished
+- Week 8 – Reporting finished
+- Week 12 – Final project finished
 
-## 5. Gantt Chart
+## 7. Gantt Chart
 
 ```mermaid
 gantt
-    title Smart Parking Platform
+    title Smart Parking Platform - Updated Timeline
     dateFormat YYYY-MM-DD
 
-    Planning                 :2026-09-21, 7d
-    User Accounts            :2026-09-28, 7d
-    Parking Features         :2026-10-05, 7d
-    Reservations             :2026-10-12, 7d
-    Payments                 :2026-10-19, 7d
-    Reporting                :2026-10-26, 7d
-    Testing and Fixes        :2026-11-02, 7d
-    Final Release            :2026-11-09, 7d
+    Planning and Requirements      :2026-09-21, 7d
+    User Accounts                  :2026-09-28, 7d
+    Login and Registration Testing :2026-10-05, 7d
+    Parking Search and Garage Setup:2026-10-12, 7d
+    Parking Availability           :2026-10-19, 7d
+    Reservations                   :2026-10-26, 7d
+    Payments                       :2026-11-02, 7d
+    Reporting                      :2026-11-09, 7d
+    Feature Integration and Testing:2026-11-16, 7d
+    Testing and Bug Fixes          :2026-11-23, 7d
+    Final Testing and Improvements :2026-11-30, 7d
+    Final Release                  :2026-12-07, 7d
 ```
 
 ### Estimation
 
 This schedule is just an estimate and could change over time because the project also changes every week and homework too. I think breaking the project into sections and weekly homeoworks really helped make such a complicated project much easier for me and made more sense.
 
-## 6. Agile, Scrum, and Sprint Planning
+## 8. Agile, Scrum, and Sprint Planning
 
 For this part, I used Trello to organize everything that still needs to be done for the parking app. I made a backlog with the login, UI, backend, and reporting parts of the project. This was my first time really using Trello, but once I got everything on the board it was actually pretty easy to understand.
 
@@ -218,7 +229,7 @@ For Sprint 1, I picked 8 things to start with. I mostly focused on creating acco
 
 ![Smart Parking Platform Trello Board](Trello%20HW%204.png)
 
-## 7. Risk, Quality, and Communication Management
+## 9. Risk, Quality, and Communication Management
 
 ### Project Risks - 4 for each group
 
@@ -278,7 +289,7 @@ For communication, I wanted to have regular check ins but not so many meetings t
 
 Since I already started using Trello for the backlog and Sprint 1, I would keep using it to track the team's work instead of switching to something different. For the larger project updates, I would keep them pretty simple and focus more on how the project is going instead of going through every small task.
 
-## 8. Resource and Cost Management
+## 10. Resource and Cost Management
 
 ### Roles & Resources
 
@@ -294,6 +305,7 @@ For the Smart Parking Platform, I decided to use a team of six people. I think t
 | Skye Monroe | Business Analyst (BA) | Intermediate | 20% | Help organize what the app needs to do based on user and parking operator feedback |
 
 I made it so theres two developers because there is a lot to build, especially with the parking availability and reservation features. I also wanted someone focused on testing and someone who could help me make sure we're building what users and parking operators actually need. I kept myself as the project manager since I've already been organizing the backlog, sprint planning, and other parts of the project.
+
 
 ### Resource & Cost Plan
 
@@ -311,7 +323,7 @@ For this part, I used bottom-up estimation because I thought it would be easier 
 | Skye Monroe | Business Analyst | 96 | $30 | $2,880 |
 | **Total** | | **1,008** | | **$37,320** |
 
-I gave the developers more hours because they would be doing most of the building, especially with the login system, reservations, payments, and parking availability. The other team members would still be involved, but they wouldn't need to spend as much time on the project.
+I gave the developers more hours because they would be doing most of the building, especially with the login system, reservations, payments, and parking availability. The other team members would still be involved, but they wouldn't need to spend as much time on the project. For the labor estimates, I used three months of 160 working hours each as a simple budgeting assumption, but the 12 week timeline shows the planned order of project activities.
 
 #### Other Project Costs
 
