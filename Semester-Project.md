@@ -206,7 +206,7 @@ gantt
 
 ### Estimation
 
-This schedule is just an estimate and could change over time because the project also changes every week and homework too. I think breaking the project into sections and weekly homeoworks really helped make such a complicated project much easier for me and made more sense.
+This is still an estimate, but I think the updated timeline is more realistic. It matches the three-month budget and gives the team more time to test the app instead of trying to finish everything in just eight weeks. I also wanted to make sure there was enough time to fix problems before the final release.
 
 ## 8. Agile, Scrum, and Sprint Planning
 
