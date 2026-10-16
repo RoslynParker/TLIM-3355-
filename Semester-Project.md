@@ -227,7 +227,8 @@ For Sprint 1, I picked 8 things to start with. I mostly focused on creating acco
 
 ### Trello Board
 
-![Smart Parking Platform Trello Board](Trello%20HW%204.png)
+[![Smart Parking Platform Trello Board](Trello%20HW%204.png)
+](https://github.com/RoslynParker/TLIM-3355-/blob/4a5ef964cc6156f5681b684f796c6591fa322e26/Class%207%20updated%20trello%20board.png)
 
 ## 9. Risk, Quality, and Communication Management
 
