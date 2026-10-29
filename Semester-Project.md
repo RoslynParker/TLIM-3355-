@@ -376,3 +376,124 @@ For the RACI matrix, I used the same six team members from my resource plan. I w
 **R = Responsible | A = Accountable | C = Consulted | I = Informed**
 
 I made myself accountable for the tasks because I would be managing the project and keeping track of the team's progress. The developers are responsible for most of the building, while Zara focuses on the design, Jace handles testing, and Skye helps with the requirements. I think this would make it easier to keep everyone organized and avoid confusion about who is supposed to do what.
+
+## 11. Stakeholder Analysis – Power–Interest Grid
+
+For the Smart Parking Platform, I looked at the different groups involved in the project and how much influence they have over its progress. I also considered how interested each group would be in the final product, since not everyone needs the same type of communication.
+
+| Stakeholder | Power | Interest | Management Approach |
+|---|---|---|---|
+| Investors | High | High | Manage closely by keeping them updated on the budget, major milestones, and any issues that could affect the project. |
+| Instructor | High | Medium | Keep satisfied by meeting project requirements, submitting work on time, and providing updates when needed. |
+| Development Team | Medium | High | Keep informed and involved through team meetings, task updates, and discussions about problems that come up during development. |
+| End Users (Drivers) | Low | High | Keep informed by gathering feedback on the app and making sure their needs are considered during development. |
+
+### Power–Interest Grid
+
+| | Low Interest | High Interest |
+|---|---|---|
+| **High Power** | Instructor (Keep Satisfied) | Investors (Manage Closely) |
+| **Low Power** | None identified | Development Team and End Users (Keep Informed) |
+
+I think the main purpose of this grid is to help me understand who needs to be involved in different decisions. For example, investors would be more concerned about the budget and whether we're meeting our deadlines, while drivers would care more about whether the app is easy to use and actually helps them find parking. The development team would need to stay involved throughout the project since they're the ones building and testing the platform.
+
+The development team has medium power overall, but I placed them in the lower-power section of the grid because they don't have the same authority over major project decisions as investors.
+
+
+## 12. Team Charter – Smart Parking Platform
+
+### Team Purpose
+
+Our goal as a team is to develop the Smart Parking Platform and make parking a little easier for drivers. The app will let people find available parking, make reservations, and pay for their parking. Parking operators will also have their own dashboard to manage their facilities and see parking information.
+
+Since there are different parts to this project, I think having everyone understand their responsibilities from the beginning will help us stay organized and avoid confusion later on.
+
+### Team Members and Responsibilities
+
+| Team Member | Role | Main Responsibilities |
+|---|---|---|
+| Roslyn Parker | Project Manager | Keep the project organized, manage the budget and timeline, track our progress in Trello, and help with any problems that come up. |
+| Zara Quinn | UX Designer | Design the app screens and make sure they're easy for people to use. |
+| Kai Mercer | Developer | Work on the login, registration, and parking reservation features. |
+| Nova Bennett | Developer | Work on accounts, parking availability, payments, and garage information. |
+| Jace Rivera | QA / Tester | Test the app, find bugs, and make sure things are working before release. |
+| Skye Monroe | Business Analyst | Help organize requirements and make sure we're considering what drivers and parking operators need. |
+
+### Communication and Meetings
+
+We'll use Trello to keep track of who's working on what and GitHub to keep our project documentation together. I planned for quick daily stand-ups so everyone can share what they're working on and mention if they're having trouble with anything.
+
+We'll also have a weekly Teams meeting to go over our progress and any bigger issues. At the end of each sprint, we'll review what we finished and what still needs work.
+
+I don't think every little issue needs a meeting, but if something is going to delay the project, I would want the team to bring it up early.
+
+### Team Expectations
+
+I expect everyone to do their part and communicate if they're having trouble finishing something. Things probably won't go exactly as planned every week, so I think it's more important to be honest about problems than to pretend everything is going fine.
+
+I also want everyone to feel comfortable sharing ideas or asking questions. Just because someone is responsible for one part of the app doesn't mean they can't have a good suggestion for another part.
+
+### Decision-Making and Conflict Resolution
+
+For most decisions, I'd rather talk things through with the team and hear everyone's opinions before making a decision. Everyone is working on something different, so they might notice problems that I wouldn't.
+
+If two team members disagree, I would try to hear both sides and figure out what makes the most sense for the project. If we still can't agree, I would make the final decision as project manager.
+
+There might also be situations where we don't have much time to discuss everything, like finding a major bug right before release. In that case, I would be more direct about what needs to get done and who's handling it.
+
+### Team Goals
+
+- Finish the project within our planned 12-week timeline.
+- Stay within the estimated $42,702 budget.
+- Make sure the main features are working and tested before release.
+- Keep track of our progress and communicate when problems come up.
+- Build something that's useful for both drivers and parking operators.
+
+### Team Agreement
+
+Overall, I just want everyone to be responsible for their work, communicate with each other, and be willing to help when something goes wrong. I think if we can do those things, it'll make the project a lot easier to manage.
+
+
+## 13. Project Charter – Smart Parking Platform
+
+### Project Background and Purpose
+
+For this project, WE ARE $oftware Corp. will be developing the Smart Parking Platform. The idea came from how frustrating it can be to find parking, especially in busy areas where you might spend a lot of time driving around just looking for an open space.
+
+I know there are already apps that help people find and pay for parking, but I wanted our platform to focus more on showing available spaces and connecting that information with the parking operators. Instead of having drivers use different services for different things, the goal is to have parking search, reservations, payments, and directions all in one place.
+
+### What the Project Will Include
+
+The platform will be available through web and mobile apps. Drivers will be able to create accounts, look for parking, check availability, make or cancel reservations, pay, and view their receipts. They will also be able to get directions and receive notifications about their parking.
+
+On the other side, parking operators will have a dashboard where they can manage garage information, update available spaces, and view reports about parking activity.
+
+For some features, like maps and payments, we would need to use outside services. I'm also assuming that participating parking garages would provide the information needed to keep their parking availability updated.
+
+### Project Goals
+
+The main goal is to make parking easier for drivers while also giving parking operators a way to manage their facilities. To do that, we need to make sure the main features actually work together and that the information drivers see is accurate.
+
+I also want to make sure we leave enough time for testing. Something like a payment not going through or a parking space showing as available when it isn't could make the app frustrating to use, which would defeat the purpose of building it.
+
+### Timeline and Budget
+
+I originally planned for this project to take 8 weeks, but I changed it to 12 weeks because I felt like that was more realistic for everything we wanted to include. The project starts September 21, 2026, and the final release is planned for Week 12, beginning December 7.
+
+We'll start with planning and user accounts, then move into parking search, availability, reservations, payments, and reporting. The last few weeks are for testing the features together, fixing bugs, and getting everything ready for release.
+
+Even though our imaginary company has unlimited resources for the assignment, I still wanted to estimate the cost. I came up with a total budget of $42,702, including labor, other project expenses, and a 10% contingency in case something costs more than expected.
+
+### Team and Project Management
+
+I'll be the project manager, and we'll have six people on the team altogether. Zara will handle the UX design, Kai and Nova will work on development, Jace will focus on testing, and Skye will help with the requirements.
+
+We already divided up the responsibilities in the resource plan and RACI matrix, so I'll use those to help keep track of who's handling each part of the project. We'll also use Trello to follow our progress and keep track of tasks.
+
+### Risks and Project Approval
+
+There are a few things that could cause problems along the way. Parking availability might not update correctly, payments could fail, or certain features could take longer than expected. We also depend on outside services and parking operators for some of the information the platform needs.
+
+I included these risks in the risk register, and part of the reason I extended the timeline was to give us more room to test things and fix problems.
+
+As project manager, I'll be responsible for keeping the project organized and making sure we're following the plan. 
