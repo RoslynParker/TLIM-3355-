@@ -496,4 +496,40 @@ There are a few things that could cause problems along the way. Parking availabi
 
 I included these risks in the risk register, and part of the reason I extended the timeline was to give us more room to test things and fix problems.
 
-As project manager, I'll be responsible for keeping the project organized and making sure we're following the plan. 
+As project manager, I'll be responsible for keeping the project organized and making sure we're following the plan.
+
+
+## 14. Internal Project Closure Report (Draft)
+
+**Project:** Smart Parking Platform  
+**Company:** WE ARE $oftware Corp.  
+**Status:** Internal – Draft
+
+### Executive Summary
+
+For my Smart Parking Platform project, the goal was to create an easier way for drivers to find parking, reserve a spot, and pay through one platform. I also wanted parking operators to have a way to manage their garages and keep track of availability.
+
+Throughout the project, I worked on putting together a plan for how everything would be done. This included creating a budget of $42,702, setting up a 12-week timeline, assigning roles to our six team members, and organizing the work through Trello. Since the project is still ongoing, this report is more of a draft based on the planning I've completed so far.
+
+### Achievements and Shortfalls
+
+I think one of the biggest accomplishments was getting everything organized and figuring out how the different parts of the project would fit together. At first, I had planned for the project to take 8 weeks, but after looking at everything that needed to be done, I realized 12 weeks would be more realistic.
+
+One challenge was trying to estimate how much time and money everything would take without actually building the app yet. Some features, especially payments and real-time parking availability, could end up being more complicated than expected. Since the project hasn't been completed, I also don't have actual testing results or final costs to compare with the original plan.
+
+### Lessons Learned
+
+One thing this project taught me is that planning takes a lot more thought than I originally expected. It's easy to come up with an idea for an app, but once you start thinking about the people, costs, deadlines, and possible problems, there's a lot more involved.
+
+I also realized how important communication would be when working with a team. Everyone needs to understand what they're responsible for, and there needs to be a way to keep track of progress. I think using Trello and having regular team meetings would help with that.
+
+Another thing I learned is that testing needs to be considered early on. For an app like this, even something small, like showing an available parking spot that isn't actually available, could cause problems for users.
+
+### Recommendations for Future Projects
+
+If I were to do another project like this, I would spend more time researching the bigger features before deciding on the timeline and budget. I would also try to get feedback from actual drivers and parking operators earlier because they might notice things that the team wouldn't think about.
+
+I would also make sure we leave enough time for testing and unexpected changes instead of assuming everything will go exactly as planned.
+
+Overall, I think this project helped me understand how much goes into managing a software project, even before development begins. Once the project is finished, I would update this report with the actual results, final expenses, and anything else the team learned along the way.
+
