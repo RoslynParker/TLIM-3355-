@@ -24,6 +24,14 @@ The idea isn't groundbreaking, but it comes from a really common problem. In bus
 
 The concept of a smart parking platform is to simplify this process for both parties. The system would be available through web and mobile apps. Customers will be able to see available parking, see the parking facility on a map, book the parking space, pay for parking, be sent notifications about their parking or reservation, and get directions to the parking facility. Parking operators will be able to keep track of those customers and get reports through their own dashboard.
 
+### Project Acquisition
+
+For this project, WE ARE $oftware Corp. would be the company developing the Smart Parking Platform. The idea came from how frustrating it can be to find parking, especially in busy areas where people might spend a lot of time driving around looking for an open space.
+
+Since this is an imaginary company for the assignment, there isn't an actual customer who hired us. I'm just assuming that our company decided to take on the project because we saw a need for something that could help both drivers and parking operators.
+
+Before starting the project, I wanted to look at what was already out there and what we could do differently. That's why I researched other parking apps and started putting together the requirements, timeline, and budget. I think doing this first would help us understand what we're getting into before actually building anything.
+
 ## 3. Software Requirements Specification
 
 ### Purpose and Scope
@@ -108,6 +116,40 @@ Using a mapping service, a driver can obtain directions to the chosen parking fa
 
 The dashboard will provide information on the parking facility's occupancy, reports, and other information to the parking operator.
 
+### User Stories
+
+After putting together the 15 use cases, I wanted to look at them more from the user's point of view. I think it's important to understand why someone would need a certain feature instead of just listing everything the app is supposed to do.
+
+#### Driver User Stories
+
+1. As a driver, I want to create an account so I can save my information and use it again later.
+2. As a driver, I want to log in so I can see my reservations and account information.
+3. As a driver, I want to add my vehicle information so I don't have to keep entering it every time.
+4. As a driver, I want to search for parking near where I'm going so I don't have to spend so much time looking for a spot.
+5. As a driver, I want to see which garages have available parking so I know where I can go.
+6. As a driver, I want to see parking locations on a map so I can compare what's nearby.
+7. As a driver, I want to see the prices and details of a parking garage before choosing it.
+8. As a driver, I want to reserve parking ahead of time so I know I have somewhere to park.
+9. As a driver, I want to cancel my reservation if my plans change, as long as the garage allows it.
+10. As a driver, I want to pay for parking through the app so I don't have to use something else.
+11. As a driver, I want to see my past reservations and receipts so I can keep track of them.
+12. As a driver, I want to get notifications about my parking so I know if something changes.
+13. As a driver, I want directions to the garage so I can find it without having to look up the address separately.
+
+#### Parking Operator User Stories
+
+14. As a parking operator, I want to log in to my account so I can manage my parking facility.
+15. As a parking operator, I want to add or change garage information so drivers have the correct details.
+16. As a parking operator, I want to update the number of available parking spaces so drivers aren't trying to reserve spots that are already taken.
+17. As a parking operator, I want to see how many spaces are being used so I can keep track of how busy the garage is.
+18. As a parking operator, I want to see reports about parking activity and payments so I can better understand how the facility is doing.
+
+### Checking the Requirements
+
+I would want to make sure the features actually work the way they're supposed to before releasing the app. For example, if someone reserves a parking space, it should show up in their account and the number of available spaces should change.
+
+I would also want to test what happens when something doesn't go right, like a payment not going through or someone trying to reserve a space that isn't available anymore. I think those are important things to check because they could cause a lot of problems for the people using the platform.
+
 ## 5. Work Breakdown Structure
 
 For the smart parking platform, I broke the project into 4 main parts of the system and then divided those into smaller parts. This helped me see what would actually need to be done for the platform.
@@ -155,6 +197,42 @@ For the smart parking platform, I broke the project into 4 main parts of the sys
 
   * 4.2.1 View revenue
   * 4.2.2 Export report
+
+### 5. Testing and Quality Assurance
+
+* 5.1 Testing the Features
+  * 5.1.1 Test registration and login
+  * 5.1.2 Test parking search and availability
+  * 5.1.3 Test reservations and cancellations
+  * 5.1.4 Test payments and receipts
+  * 5.1.5 Test the parking operator dashboard and reports
+
+* 5.2 Final Testing
+  * 5.2.1 Test how the main features work together
+  * 5.2.2 Check that account information is protected
+  * 5.2.3 Fix bugs that come up during testing
+  * 5.2.4 Make sure everything is ready for release
+
+### 6. Project Management and Release
+
+* 6.1 Planning
+  * 6.1.1 Gather requirements
+  * 6.1.2 Create the timeline and budget
+  * 6.1.3 Assign team responsibilities
+  * 6.1.4 Organize the Trello backlog and sprints
+
+* 6.2 Keeping Track of Progress
+  * 6.2.1 Check deadlines and project progress
+  * 6.2.2 Keep track of risks and costs
+  * 6.2.3 Have team meetings and sprint reviews
+
+* 6.3 Final Release
+  * 6.3.1 Review the finished features
+  * 6.3.2 Get the platform ready for release
+  * 6.3.3 Finish the project documentation
+  * 6.3.4 Plan for maintenance after the project
+
+I added testing and project management to the WBS because I realized there is more to the project than just building the features. We also have to make sure everything works, keep track of our progress, and have a plan for what happens after the app is released.
 
 ## 6. Draft Timeline
 
@@ -230,10 +308,94 @@ For Sprint 1, I picked 8 things to start with. I mostly focused on creating acco
 [![Smart Parking Platform Trello Board](Trello%20HW%204.png)
 ](https://github.com/RoslynParker/TLIM-3355-/blob/4a5ef964cc6156f5681b684f796c6591fa322e26/Class%207%20updated%20trello%20board.png)
 
+### Updated Sprint Planning
+
+For the rest of the project, I decided to divide the 12 weeks into six sprints, with each sprint lasting two weeks. I thought this would make it easier to keep track of everything instead of trying to manage the entire project at one time.
+
+I already started working on Sprint 1 in Trello, so I wanted to keep that same idea going for the rest of the project.
+
+#### Sprint 1 - Planning and Accounts (Weeks 1-2)
+
+- Finish gathering requirements
+- Work on the login and registration screens
+- Create driver and parking operator accounts
+- Set up the backend for account information
+
+#### Sprint 2 - Login Testing and Parking Search (Weeks 3-4)
+
+- Test login and registration
+- Fix any problems with user accounts
+- Work on the parking search screen
+- Add garage information and map locations
+
+#### Sprint 3 - Parking Availability and Reservations (Weeks 5-6)
+
+- Show available parking spaces
+- Connect parking availability information
+- Create the reservation feature
+- Allow drivers to view or cancel reservations
+- Test reservations and availability
+
+#### Sprint 4 - Payments and Reports (Weeks 7-8)
+
+- Add payments and payment confirmations
+- Let drivers view their receipts
+- Work on the parking operator dashboard
+- Add parking occupancy and financial reports
+- Test payments and reporting
+
+#### Sprint 5 - Testing and Fixing Problems (Weeks 9-10)
+
+- Test the main features together
+- Check that parking availability updates correctly
+- Test payments and reservations when something goes wrong
+- Check account security
+- Fix bugs found during testing
+
+#### Sprint 6 - Final Testing and Release (Weeks 11-12)
+
+- Finish testing the app
+- Make any final improvements
+- Check that the main requirements have been met
+- Get the platform ready for release
+- Finish documentation and maintenance planning
+
+### Individual Sprint Responsibilities
+
+I wanted to divide the work based on what each person is already responsible for in the project. Since we only have six team members, I think it makes more sense to keep everyone focused on their own areas instead of moving people around too much.
+
+| Team Member | Responsibilities |
+|---|---|
+| Roslyn Parker | Keep track of the sprints, update Trello, manage deadlines, and make sure everyone knows what they're working on |
+| Zara Quinn | Design the app screens and make changes if something is confusing or difficult to use |
+| Kai Mercer | Work on login, registration, reservations, and fixing problems with those features |
+| Nova Bennett | Work on parking availability, payments, garage information, and reporting |
+| Jace Rivera | Test the features during each sprint and keep track of any bugs |
+| Skye Monroe | Review requirements, help gather feedback, and make sure we're considering what users need |
+
+I would use Trello to keep track of the individual tasks and see what everyone has finished or still needs to work on. I think having the sprints organized this way would make it easier to notice if something is falling behind.
+
+### Final Trello Backlog Organization
+
+After reviewing my original Product Backlog, I organized the tasks into six two-week sprints to match my updated 12-week timeline. I also added testing and release tasks that I hadn't included in my original backlog.
+
+| Sprint | Number of Cards |
+|---|---:|
+| Sprint 1 - Planning and Accounts | 8 |
+| Sprint 2 - Login Testing and Parking Search | 11 |
+| Sprint 3 - Parking Availability and Reservations | 10 |
+| Sprint 4 - Payments and Reports | 16 |
+| Sprint 5 - Testing and Fixing Problems | 8 |
+| Sprint 6 - Final Testing and Release | 7 |
+| **Total** | **60** |
+
+I kept the In Progress and Done lists so I could track the work as it moves through the project. I also archived the original backlog cards after copying the tasks into their assigned sprints to avoid having duplicates on the board.
+
+I think organizing the tasks this way makes it easier to see what needs to happen during each part of the project and which features should be worked on first. Since this is a project plan, the sprint lists show the work I have scheduled rather than work that has already been completed.
+
 ## 9. Risk, Quality, and Communication Management
 
 ### Project Risks - 4 for each group
-
 
 #### Technical Risks
 - The app might show a parking spot as available when someone has already taken or reserved it.
@@ -498,7 +660,6 @@ I included these risks in the risk register, and part of the reason I extended t
 
 As project manager, I'll be responsible for keeping the project organized and making sure we're following the plan.
 
-
 ## 14. Internal Project Closure Report (Draft)
 
 **Project:** Smart Parking Platform  
@@ -532,4 +693,45 @@ If I were to do another project like this, I would spend more time researching t
 I would also make sure we leave enough time for testing and unexpected changes instead of assuming everything will go exactly as planned.
 
 Overall, I think this project helped me understand how much goes into managing a software project, even before development begins. Once the project is finished, I would update this report with the actual results, final expenses, and anything else the team learned along the way.
+
+
+### Proposed Maintenance Plan After Release
+
+Once the Smart Parking Platform is released, I don't think the project should just end there. Even if everything works during testing, there could still be problems once people actually start using the app.
+
+I would want to have a maintenance agreement for the first three months after release. I think that would give us enough time to see how the platform is working and fix any problems that weren't caught during testing.
+
+During that time, I would want the team to focus on a few things:
+
+- Fixing problems with parking reservations and payments.
+- Making sure parking availability is updating correctly.
+- Checking that the app and operator dashboard are working.
+- Keeping the system updated and checking for security problems.
+- Looking at feedback from drivers and parking operators.
+- Making small improvements when something isn't working the way we expected.
+
+If someone reports a problem, I would want the team to look at how serious it is before deciding what to work on first. For example, if payments aren't going through or people can't reserve parking, that should be fixed before something smaller, like a button not looking right.
+
+I would also keep using Trello to track the problems and make sure the team knows who's working on what.
+
+### Maintenance Responsibilities
+
+| Team Member | Responsibility |
+|---|---|
+| Roslyn Parker | Keep track of maintenance work, communicate updates, and monitor costs |
+| Zara Quinn | Help with design problems or anything that makes the app confusing to use |
+| Kai Mercer | Fix problems with login, accounts, and reservations |
+| Nova Bennett | Fix problems with payments, parking availability, and garage information |
+| Jace Rivera | Test the fixes and make sure they don't cause other problems |
+| Skye Monroe | Collect feedback and help decide what needs to be improved |
+
+### Maintenance Timeline and Cost
+
+I would plan for the maintenance agreement to last three months after the final release. Since we don't know how many problems might come up yet, I wouldn't want to make up an exact cost without knowing how much work the team would need to do.
+
+I would keep the maintenance cost separate from the original $42,702 budget because that budget was for planning and developing the platform. Before starting maintenance, I would estimate how many hours each team member might need and what the hosting and other service costs would be.
+
+At the end of the three months, I would look at how many problems came up, how long they took to fix, and what kind of feedback we received. Then I would decide if we should continue maintenance or start working on improvements for the next version.
+
+I think having a plan like this would help us make sure the platform keeps working after release instead of just finishing the project and moving on.
 
